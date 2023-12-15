@@ -3888,7 +3888,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1023161400}
         m_TargetAssemblyTypeName: MenuNavigation, Assembly-CSharp
-        m_MethodName: Project0
+        m_MethodName: Project5
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4588,7 +4588,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1023161400}
         m_TargetAssemblyTypeName: MenuNavigation, Assembly-CSharp
-        m_MethodName: Project0
+        m_MethodName: Project4
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5294,7 +5294,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1023161400}
         m_TargetAssemblyTypeName: MenuNavigation, Assembly-CSharp
-        m_MethodName: Project0
+        m_MethodName: Project7
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5538,8 +5538,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 761147e3c8b4c2a4c832f867af2816bf, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -9516,7 +9516,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1023161400}
         m_TargetAssemblyTypeName: MenuNavigation, Assembly-CSharp
-        m_MethodName: Project0
+        m_MethodName: Project6
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10140,7 +10140,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.93333334, g: 0.15294118, b: 0.21568628, a: 1}
@@ -10150,9 +10150,9 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 21300000, guid: f0405bc1c5918554780ea8fd69481b8c, type: 3}
+    m_PressedSprite: {fileID: 21300000, guid: f5f45b713cfe4714b9d808bd375fe71e, type: 3}
+    m_SelectedSprite: {fileID: 21300000, guid: 761147e3c8b4c2a4c832f867af2816bf, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -10197,8 +10197,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 761147e3c8b4c2a4c832f867af2816bf, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -10523,7 +10523,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1023161400}
         m_TargetAssemblyTypeName: MenuNavigation, Assembly-CSharp
-        m_MethodName: Project0
+        m_MethodName: Project8
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
