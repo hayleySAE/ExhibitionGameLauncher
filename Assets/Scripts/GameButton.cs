@@ -1,22 +1,28 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class GameButton : MonoBehaviour
 {
     private GameInformation _gameInfo;
+    private Action<GameInformation> _onClick;
+    [SerializeField]
+    private TMPro.TMP_Text _text;
 
     public void SetGame(GameInformation gameInfo)
     {
         _gameInfo = gameInfo;
         //set button text
-        GetComponentInChildren<TMPro.TMP_Text>().text = _gameInfo.name;
-        GetComponentInChildren<Button>().onClick.AddListener(OnClick);
+        _text.text = _gameInfo.name;
     }
 
-    public void OnClick()
+    public void OnClick(Action<GameInformation> onClick)
     {
-        //TODO: Call the menu populator event
+        _onClick = onClick;
+    }
 
-        FindObjectsByType<MenuPopulator>(FindObjectsSortMode.None)[0].UpdateFields(_gameInfo);
+    public void Click()
+    {
+        _onClick?.Invoke(_gameInfo);
     }
 }

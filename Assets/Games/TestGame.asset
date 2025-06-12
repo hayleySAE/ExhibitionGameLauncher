@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: TestGame
   m_EditorClassIdentifier: 
   gameName: 
+  studentNames:
+  - name: 
+    role: 
   description: 
   icon: {fileID: 21300000, guid: 141d4bdd9e4921b48a61832971563197, type: 3}
   filePath: 

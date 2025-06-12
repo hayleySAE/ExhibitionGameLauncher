@@ -7,7 +7,7 @@ public class GameInformation : ScriptableObject
     [Header("Keep to under x words")]
     [SerializeField] public string gameName;
     [Header("List the names and roles of all students")]
-    [SerializeField] public List<string> studentNames;
+    [SerializeField] public List<StudentInfo> studentNames;
     [Header("Keep to under x words")]
     [SerializeField] public string description;
     [Header("Sprite with x/y aspect ratio")]
