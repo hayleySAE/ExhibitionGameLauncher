@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c890985553ec793408afbfb43a5e708f, type: 3}
   m_Name: TestGame
   m_EditorClassIdentifier: 
-  gameName: 
+  gameName: Test Game!
   studentNames:
-  - name: 
-    role: 
-  description: 
+  - name: Student McStudentson
+    role: Programmer
+  - name: Billy Roger
+    role: Designer
+  description: Lorem Ipsum and whatever
   icon: {fileID: 21300000, guid: 141d4bdd9e4921b48a61832971563197, type: 3}
-  filePath: 
+  filePath: pathgohereweknowthisbitworks

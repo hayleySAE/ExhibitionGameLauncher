@@ -1407,7 +1407,7 @@ GameObject:
   - component: {fileID: 1996225297}
   - component: {fileID: 1996225299}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1488,10 +1488,7 @@ MonoBehaviour:
   games:
   - {fileID: 11400000, guid: 976af9cc7fe7d6542b75eddb77fe9826, type: 2}
   buttonPrefab: {fileID: 5184558603616490879, guid: b3b791d4032f46441b1afa84d8182dd5, type: 3}
-  descriptionField: {fileID: 1371396475}
-  teamField: {fileID: 227442611}
-  gameIconField: {fileID: 1010821381}
-  launchButton: {fileID: 2040498244}
+  panel: {fileID: 2092372462}
 --- !u!1 &2040498239
 GameObject:
   m_ObjectHideFlags: 0
@@ -1504,7 +1501,6 @@ GameObject:
   - component: {fileID: 2040498243}
   - component: {fileID: 2040498242}
   - component: {fileID: 2040498241}
-  - component: {fileID: 2040498244}
   m_Layer: 5
   m_Name: Play Project
   m_TagString: Untagged
@@ -1575,19 +1571,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2040498242}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2040498244}
-        m_TargetAssemblyTypeName: GameLaunchButton, Assembly-CSharp
-        m_MethodName: LaunchGame
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &2040498242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1626,19 +1610,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2040498239}
   m_CullTransparentMesh: 1
---- !u!114 &2040498244
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2040498239}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3f997bfee668f1419e9b0b96f2fbf31, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  filePath: 
 --- !u!1 &2092372458
 GameObject:
   m_ObjectHideFlags: 0
@@ -1650,8 +1621,9 @@ GameObject:
   - component: {fileID: 2092372459}
   - component: {fileID: 2092372461}
   - component: {fileID: 2092372460}
+  - component: {fileID: 2092372462}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: GameDetailsPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1718,6 +1690,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2092372458}
   m_CullTransparentMesh: 1
+--- !u!114 &2092372462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092372458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14c75c168c7b3eb4eb4111f58beed12a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  descriptionField: {fileID: 1371396475}
+  teamField: {fileID: 227442611}
+  gameIconField: {fileID: 1010821381}
+  launchButton: {fileID: 2040498241}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
