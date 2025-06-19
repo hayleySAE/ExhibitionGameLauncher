@@ -9,8 +9,10 @@ public class GamePanel : MonoBehaviour
 {
     public TMP_Text descriptionField;
     public TMP_Text teamField;
+    public TMP_Text gameName;
     public Image gameIconField;
     public Button launchButton;
+
     //public GameLaunchButton launchButton;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -18,6 +20,7 @@ public class GamePanel : MonoBehaviour
     {
         gameIconField.sprite = game.icon;
         descriptionField.text = game.description;
+        gameName.text = game.gameName;
         //TODO: Better concatenation
         teamField.text = "";
         foreach (var studentName in game.studentNames)
