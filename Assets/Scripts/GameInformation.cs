@@ -6,8 +6,7 @@ public class GameInformation : ScriptableObject
 {
     [SerializeField]
     public string gameName;
-    [SerializeField]
-    public List[];
+
     // game name
     // student names
     // description
